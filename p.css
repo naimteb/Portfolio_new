@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Inter";
   line-height: 1.6;
   color: #333;
   max-width: 800px;
@@ -8,18 +10,22 @@ body {
 }
 
 header {
+  display: flex;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 100px;
+  align-items: center;
 }
 
 h1 {
   color: #2c3e50;
   margin-bottom: 8px;
+  display: flex;
+  margin-right: 20px;
 }
 
 .project {
   background: #f9f9f9;
-  padding: 32px;
+  padding: 38px;
   margin-bottom: 16px;
   border-radius: 5px;
 }
@@ -32,4 +38,10 @@ address a {
 }
 address a:hover {
   text-decoration: underline;
+}
+header img {
+  margin-right: 10px;
+  width: 150px;
+  border-radius: 50%;
+  border: 2px;
 }
